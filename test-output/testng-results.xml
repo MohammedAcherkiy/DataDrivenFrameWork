@@ -1,13 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="477" started-at="2016-03-01T06:50:52Z" finished-at="2016-03-01T06:50:53Z">
+  <suite name="Default suite" duration-ms="532" started-at="2016-03-01T07:24:03Z" finished-at="2016-03-01T07:24:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="477" started-at="2016-03-01T06:50:52Z" finished-at="2016-03-01T06:50:53Z">
+    <test name="Default test" duration-ms="532" started-at="2016-03-01T07:24:03Z" finished-at="2016-03-01T07:24:04Z">
       <class name="TestExcelData">
-        <test-method status="PASS" signature="testLoggingData(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="testLoggingData" duration-ms="6" started-at="2016-02-29T22:50:53Z" data-provider="getLoggingData" finished-at="2016-02-29T22:50:53Z">
+        <test-method status="PASS" signature="test2(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="test2" duration-ms="7" started-at="2016-02-29T23:24:04Z" data-provider="catalogueTest" finished-at="2016-02-29T23:24:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Category=Sport, BookName=SportBook}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test2(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="test2" duration-ms="1" started-at="2016-02-29T23:24:04Z" data-provider="catalogueTest" finished-at="2016-02-29T23:24:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Category=kids, BookName=kidsBook}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test2(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="test2" duration-ms="0" started-at="2016-02-29T23:24:04Z" data-provider="catalogueTest" finished-at="2016-02-29T23:24:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Category=Family, BookName=FamilyBook}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test2(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="test2" duration-ms="0" started-at="2016-02-29T23:24:04Z" data-provider="catalogueTest" finished-at="2016-02-29T23:24:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Category=Health, BookName=HealthBook}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test2(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="test2" duration-ms="0" started-at="2016-02-29T23:24:04Z" data-provider="catalogueTest" finished-at="2016-02-29T23:24:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Category=Fitness, BookName=FitnessBook}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="testLoggingData(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="testLoggingData" duration-ms="1" started-at="2016-02-29T23:24:04Z" data-provider="getLoggingData" finished-at="2016-02-29T23:24:04Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoggingData -->
-        <test-method status="PASS" signature="testLoggingData(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="testLoggingData" duration-ms="1" started-at="2016-02-29T22:50:53Z" data-provider="getLoggingData" finished-at="2016-02-29T22:50:53Z">
+        <test-method status="PASS" signature="testLoggingData(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="testLoggingData" duration-ms="1" started-at="2016-02-29T23:24:04Z" data-provider="getLoggingData" finished-at="2016-02-29T23:24:04Z">
           <params>
             <param index="0">
               <value>
@@ -29,7 +84,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoggingData -->
-        <test-method status="PASS" signature="testLoggingData(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="testLoggingData" duration-ms="0" started-at="2016-02-29T22:50:53Z" data-provider="getLoggingData" finished-at="2016-02-29T22:50:53Z">
+        <test-method status="PASS" signature="testLoggingData(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="testLoggingData" duration-ms="1" started-at="2016-02-29T23:24:04Z" data-provider="getLoggingData" finished-at="2016-02-29T23:24:04Z">
           <params>
             <param index="0">
               <value>
@@ -40,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoggingData -->
-        <test-method status="PASS" signature="testLoggingData(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="testLoggingData" duration-ms="0" started-at="2016-02-29T22:50:53Z" data-provider="getLoggingData" finished-at="2016-02-29T22:50:53Z">
+        <test-method status="PASS" signature="testLoggingData(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="testLoggingData" duration-ms="0" started-at="2016-02-29T23:24:04Z" data-provider="getLoggingData" finished-at="2016-02-29T23:24:04Z">
           <params>
             <param index="0">
               <value>
@@ -51,7 +106,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoggingData -->
-        <test-method status="PASS" signature="testLoggingData(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="testLoggingData" duration-ms="0" started-at="2016-02-29T22:50:53Z" data-provider="getLoggingData" finished-at="2016-02-29T22:50:53Z">
+        <test-method status="PASS" signature="testLoggingData(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="testLoggingData" duration-ms="0" started-at="2016-02-29T23:24:04Z" data-provider="getLoggingData" finished-at="2016-02-29T23:24:04Z">
           <params>
             <param index="0">
               <value>

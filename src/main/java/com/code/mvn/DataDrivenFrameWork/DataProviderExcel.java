@@ -11,5 +11,14 @@ public class DataProviderExcel {
 		
 		return ReadingExcelFile.getdata("Excel.xlsx","Sheet1");
 	}
+	
+	
+	
+	
+	@DataProvider(name="catalogueTest")
+	public static Object[][]checkCatalogue() throws IOException{
+		
+		return ReadingExcelFile.getdata("BookCatalogue.xlsx","Sheet1");
+	}
 
 }
