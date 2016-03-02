@@ -11,7 +11,6 @@ public class DataProviderExcel {
 		
 		return ReadingExcelFile.getdata("Excel.xlsx","Sheet1");
 	}
-<<<<<<< HEAD
 	
 	
 	
@@ -21,7 +20,6 @@ public class DataProviderExcel {
 		
 		return ReadingExcelFile.getdata("BookCatalogue.xlsx","Sheet1");
 	}
-=======
->>>>>>> 8c3f824a69a4aa7bc5f73d5a2d54139b0b6c581a
+
 
 }

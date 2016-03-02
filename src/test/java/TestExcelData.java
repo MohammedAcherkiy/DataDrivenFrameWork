@@ -1,3 +1,5 @@
+
+
 import java.util.Map;
 
 import org.testng.annotations.Test;
@@ -8,7 +10,6 @@ public class TestExcelData {
 	
 	@Test(dataProvider="getLoggingData", dataProviderClass = DataProviderExcel.class) 
 	public void testLoggingData(Map<String, Object> data){
-<<<<<<< HEAD
 		//testing the data
 		System.out.println("User name  = " +  data.get("UserName") + " Password  =" +  data.get("PassWord"));
 		
@@ -22,15 +23,13 @@ public class TestExcelData {
 		
 		
 		
-=======
-		System.out.println("User name  = " +  data.get("UserName") + " Password  =" +  data.get("PassWord"));
+
+		System.out.println("User name  = " +  map.get("UserName") + " Password  =" +  map.get("PassWord"));
 		
->>>>>>> 8c3f824a69a4aa7bc5f73d5a2d54139b0b6c581a
-		
+
 		
 	}
 	
-<<<<<<< HEAD
 	
 	
 
@@ -40,8 +39,6 @@ public class TestExcelData {
 }
 
 
-=======
 
-}
 
->>>>>>> 8c3f824a69a4aa7bc5f73d5a2d54139b0b6c581a
+
