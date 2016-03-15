@@ -23,6 +23,11 @@ public class LoggerHelper {
 	
 	
 	
+	
+	
+
+	
+	
 	private static void initLogger(){
 		
 		layout = new PatternLayout(pattern);
