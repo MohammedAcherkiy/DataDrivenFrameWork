@@ -42,7 +42,7 @@ public class LoggerHelper {
 			rolling.setName("RFILE");
 			rolling.setMaxFileSize("25MB");
 			rolling.setMaxBackupIndex(100);
-			rolling.setThreshold(Level.WARN);
+			rolling.setThreshold(Level.ERROR);
 			rolling.activateOptions();
 		} catch (IOException e) {
 			e.printStackTrace();

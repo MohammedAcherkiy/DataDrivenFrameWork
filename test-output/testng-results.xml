@@ -1,123 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="10" passed="10">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="527" started-at="2016-03-02T04:54:28Z" finished-at="2016-03-02T04:54:29Z">
+  <suite name="Default suite" duration-ms="24" started-at="2016-03-15T20:59:12Z" finished-at="2016-03-15T20:59:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="527" started-at="2016-03-02T04:54:28Z" finished-at="2016-03-02T04:54:29Z">
-      <class name="TestExcelData">
-        <test-method status="PASS" signature="test2(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="test2" duration-ms="6" started-at="2016-03-01T20:54:29Z" data-provider="catalogueTest" finished-at="2016-03-01T20:54:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Category=Sport, BookName=SportBook}]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="24" started-at="2016-03-15T20:59:12Z" finished-at="2016-03-15T20:59:12Z">
+      <class name="TestSeleniumLogger">
+        <test-method status="PASS" signature="test()[pri:0, instance:TestSeleniumLogger@68837a77]" name="test" duration-ms="12" started-at="2016-03-15T13:59:12Z" finished-at="2016-03-15T13:59:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test2(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="test2" duration-ms="1" started-at="2016-03-01T20:54:29Z" data-provider="catalogueTest" finished-at="2016-03-01T20:54:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Category=kids, BookName=kidsBook}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test2(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="test2" duration-ms="1" started-at="2016-03-01T20:54:29Z" data-provider="catalogueTest" finished-at="2016-03-01T20:54:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Category=Family, BookName=FamilyBook}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test2(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="test2" duration-ms="1" started-at="2016-03-01T20:54:29Z" data-provider="catalogueTest" finished-at="2016-03-01T20:54:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Category=Health, BookName=HealthBook}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test2(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="test2" duration-ms="0" started-at="2016-03-01T20:54:29Z" data-provider="catalogueTest" finished-at="2016-03-01T20:54:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Category=Fitness, BookName=FitnessBook}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="testLoggingData(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="testLoggingData" duration-ms="0" started-at="2016-03-01T20:54:29Z" data-provider="getLoggingData" finished-at="2016-03-01T20:54:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{UserName=user1, PassWord=pass1}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoggingData -->
-        <test-method status="PASS" signature="testLoggingData(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="testLoggingData" duration-ms="0" started-at="2016-03-01T20:54:29Z" data-provider="getLoggingData" finished-at="2016-03-01T20:54:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{UserName=user2, PassWord=pass2}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoggingData -->
-        <test-method status="PASS" signature="testLoggingData(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="testLoggingData" duration-ms="1" started-at="2016-03-01T20:54:29Z" data-provider="getLoggingData" finished-at="2016-03-01T20:54:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{UserName=user4, PassWord=pass4}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoggingData -->
-        <test-method status="PASS" signature="testLoggingData(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="testLoggingData" duration-ms="0" started-at="2016-03-01T20:54:29Z" data-provider="getLoggingData" finished-at="2016-03-01T20:54:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{UserName=user3, PassWord=pass3}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoggingData -->
-        <test-method status="PASS" signature="testLoggingData(java.util.Map)[pri:0, instance:TestExcelData@3f0ee7cb]" name="testLoggingData" duration-ms="1" started-at="2016-03-01T20:54:29Z" data-provider="getLoggingData" finished-at="2016-03-01T20:54:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{UserName=user5, PassWord=pass5}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoggingData -->
-      </class> <!-- TestExcelData -->
+        </test-method> <!-- test -->
+      </class> <!-- TestSeleniumLogger -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
